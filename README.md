@@ -1,1 +1,2 @@
 # phpstudy
+update readme
