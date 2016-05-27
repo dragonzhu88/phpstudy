@@ -23,7 +23,7 @@ if($result){
 }else{
     die("query failed");
 }
-  
+
 echo "the number of the table is $count[0]<br>";
 
 $sql = sprintf("SELECT %s FROM %s",implode(",",$dbColArray ),DB_TABLENAME);
@@ -36,7 +36,7 @@ while($row=mysql_fetch_array($result,MYSQL_ASSOC)){
         $tdstr .="<td>$row[$td]</td>";
         echo $tdstr;
         echo "</tr>";
-    }
+    }  
 
 }
 
