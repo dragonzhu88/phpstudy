@@ -43,7 +43,7 @@ for($i=0;$i<$dataCount;$i++){
     <tr><td><?php echo $id?></td><td><?php echo $name?></td><td><?php echo $age?></td></tr>
 <?php
 }
-?>
+?>  
 </table>
 </body>
 </html>
